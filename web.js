@@ -9,5 +9,5 @@ app.get('/about', (req,res)=>{
 })
 
 const PORT = 5000;
-app.listen(process.PORT || PORT);
+app.listen(process.env.PORT || PORT);
 console.log('Server is running')
